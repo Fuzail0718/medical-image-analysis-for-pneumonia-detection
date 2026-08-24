@@ -1,0 +1,33 @@
+{
+    "model_info": {
+        "backbone": "ResNet50",
+        "epochs_phase1": 10,
+        "epochs_phase2": 20,
+        "batch_size": 32,
+        "image_size": [
+            224,
+            224
+        ]
+    },
+    "dataset_info": {
+        "normal_train": 1342,
+        "pneumonia_train": 3876,
+        "total_train": 5218,
+        "test_samples": 624
+    },
+    "test_metrics": {
+        "accuracy": 0.8237179487179487,
+        "precision": 0.7834008097165992,
+        "recall": 0.9923076923076923,
+        "f1_score": 0.8755656108597285,
+        "sensitivity": 0.9923076923076923,
+        "specificity": 0.5427350427350427,
+        "auc_roc": 0.9662283585360509
+    },
+    "confusion_matrix": {
+        "true_negatives": 127,
+        "false_positives": 107,
+        "false_negatives": 3,
+        "true_positives": 387
+    }
+}

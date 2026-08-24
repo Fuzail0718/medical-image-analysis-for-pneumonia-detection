@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/
+dataset/
+datasets/
+
+# Large trained models
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# TensorFlow / Keras
+.keras/
+checkpoint/
+checkpoints/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local backups
+github_backup/*.h5
+__pycache__/
